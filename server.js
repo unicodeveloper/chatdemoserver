@@ -1,4 +1,4 @@
-var PORT = 34228;
+var PORT = 80;
 
 /**
  * Created by josh on 1/26/17.
