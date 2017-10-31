@@ -1,0 +1,10 @@
+{
+  "name": "chat-demo-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "description": "chatdemoserver"
+}
