@@ -47,7 +47,7 @@ server.on('clientError', (err, socket)=>{
     console.log(err);
     socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
 });
-server.listen(PORT, () => console.log(`server is running on port ${PORT}`));
+server.listen(process.env.PORT || 8080, () => console.log(`server is running on port ${PORT}`));
 
 
 function missingText(res) {
